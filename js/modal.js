@@ -19,20 +19,20 @@ modal.onclick =(event) => {
         closeModal()
     }
 }
-const scrollEnd =() =>{
-    if ((window.innerHeight + window.scrollY) >= document.body.offsetHeight) {
-        openModal();
-    }
-}
-scrollEnd()
-window.addEventListener('scroll', scrollEnd)
-const autoModal = setInterval (() =>{
-    openModal()
-},10000)
-setTimeout(() => {
-    clearInterval(autoModal)
-},10000)
-
+// const scrollEnd =() =>{
+//     if ((window.innerHeight + window.scrollY) >= document.body.offsetHeight) {
+//         openModal();
+//     }
+// }
+// scrollEnd()
+// window.addEventListener('scroll', scrollEnd)
+// const autoModal = setInterval (() =>{
+//     openModal()
+// },10000)
+// setTimeout(() => {
+//     clearInterval(autoModal)
+// },10000)
+//
 
 // Post Data
 const formElement = document.querySelector('form')
